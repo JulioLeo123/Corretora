@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import Services from './components/services';
 import Local from './components/local';
+import Quotation from './components/quotation';
+import Partners from './components/partners';
+import Footer from './components/footer';
+
 
 function App() {
   return (
@@ -14,6 +18,9 @@ function App() {
       </header>
       <Services />
       <Local />
+      <Quotation />
+      <Partners />
+      <Footer />
     </div>   
   );
 }
